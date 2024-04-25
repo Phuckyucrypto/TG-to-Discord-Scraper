@@ -1,0 +1,31 @@
+'This bot can be ran with simple commands locally
+Make sure to firstly install Python via terminal
+Commands for MacOS -- 'brew install python'
+--( Needs homebrew installed find that here https://brew.sh )
+You can check version after install with -- 'pip3 --version'
+
+Inside your project -- cd kosher_bot or open a terminal in VSCode or any IDE inside of the project
+Install Telethon -- Windows = (pip install telethon) 
+                 -- MACOS/LINUX = (pip3 install telethon)
+Install discord.py -- Windown = (pip install discord.py)
+                   -- MacOS/Linux = (pip3 install discord.py)
+Install certifi -- Windows = (pip install certifi)
+                -- MacOS/Linux = (pip3 install certifi)
+Install aiohttp -- Windows = (pip install aiohttp)
+                -- MacOS/Linux = (pip3 install aiohttp)
+
+
+IF YOU ENCOUNTER CERTIFI ISSUE REINSTALL CERIFICATES USING 
+-- cd /Applications/Python\ 3.11/
+-- ./Install\ Certificates.command
+'Copy both lines and put in your machines terminal not in project directory'
+
+Make sure you are using updated packages -- MacOs (pip3 -U <package>) 
+                                         -- Windows (pip -U <package>)
+"Can be certifi for example or any of the the other packages needing install"
+
+'When you first run the script you will be asked to enter code sent to you via telegram'
+'after first log in you will not need to do it again recommend to run locally first to get log in out of the way then uploading to cloud service'
+
+    To run script use -- MacOs/Linux (pip3 tgkosher.py)
+                      -- Windows (pip tgkosher.py)
