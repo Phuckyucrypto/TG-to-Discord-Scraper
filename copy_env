@@ -1,0 +1,12 @@
+TELEGRAM_API_ID=your_telegram_api_id
+TELEGRAM_API_HASH=your_telegram_api_hash
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+DISCORD_BOT_TOKEN=your_discord_bot_token
+TELEGRAM_PHONE_NUMBER=your_phone_number_in_international_form_example_+15864532222
+
+This is a copy of the format your .env file should look like.
+In production on cloud service name these the same and upload them to 
+Enviormental variables so they are secure. (DELETE THIS WHEN DONE)
+
+You can get Telegram API hash and ID from https://my.telegram.org/
+log in and create App application it will provide you with them
